@@ -1,3 +1,2 @@
 # DinoGame
-a simple game programmes with javaScript
-created this game with the help of a youtube tutorial: https://www.youtube.com/watch?v=i7nIutSLvdU
+a simple game programmes with javaScript, which was created with the help of a youtube tutorial: https://www.youtube.com/watch?v=i7nIutSLvdU
