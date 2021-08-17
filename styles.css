@@ -1,0 +1,67 @@
+.game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(nyan.jpg);
+    background-size: 50px 50px;
+    position: relative;
+    /*the lower the value is the heigher the position is*/
+    top: 150px;
+
+
+}
+
+.jump {
+    animation: jump 0.3s linear;
+}
+
+/*keyFrames for animations*/
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+
+    30% {
+        top: 130px;
+    }
+
+    50% {
+        top: 80px;
+    }
+
+    80% {
+        top: 130px;
+    }
+
+    100% {
+        top: 150px;
+    }
+
+}
+
+#cactus {
+    width: 30px;
+    height: 30px;
+    background-image: url(heart.png);
+    background-size: 30px 30px;
+    position: relative;
+    /*the lower the value is the heigher the position is*/
+    top: 120px;
+    left: 570px;
+    animation: block 1s infinite linear;
+
+}
+@keyframes block {
+    0% {
+        left: 570px;
+    }
+    100% {
+        left: -20px;
+    }
+}
